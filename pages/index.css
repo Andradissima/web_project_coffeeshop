@@ -200,6 +200,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .reservation__form {
@@ -217,8 +218,7 @@ a:hover {
   width: 100%;
 }
 
-.reservation__form-title {
-  text-align: center;
+.reservation__title {
   padding-top: 80px;
   padding-bottom: 50px;
   font-family: "Inter", "Arial", "sans-serif";
@@ -275,7 +275,7 @@ a:hover {
   width: 20px;
 }
 
-.reservation__label--terms {
+.reservation__label-terms {
   align-self: center;
   margin-top: 32px;
 }
