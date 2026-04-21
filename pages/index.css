@@ -201,23 +201,28 @@ a:hover {
   flex-direction: column;
 }
 
-.reservation__form {
+.form {
   border: none;
   margin: 0 auto;
 }
 
-.reservation__fieldset {
+.reservation__form {
   max-width: 385px;
-  display: flex;
-  flex-direction: column;
-  border-style: none;
   box-sizing: border-box;
   width: 100%;
   padding: 0;
 }
 
+.reservation__fieldset {
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+
 .reservation__title {
-  margin: 100px auto 80px;
+  margin: 0;
+  padding: 100px 0 48px;
   font-family: "Inter", "Arial", "sans-serif";
   font-weight: 500;
   font-size: 44px;
@@ -239,7 +244,6 @@ a:hover {
 }
 
 .reservation__label {
-  padding-top: 32px;
   padding-bottom: 8px;
   font-family: "Inter", "Arial", "sans-serif";
   font-weight: 500;
