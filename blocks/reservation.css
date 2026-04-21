@@ -13,11 +13,6 @@
   z-index: 1;
 }
 
-.reservation__content {
-  border: none;
-  margin: 0 auto;
-}
-
 .reservation__form {
   max-width: 385px;
   box-sizing: border-box;
